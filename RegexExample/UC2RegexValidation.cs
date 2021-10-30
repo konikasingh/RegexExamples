@@ -16,5 +16,10 @@ namespace RegexExample
             return Regex.IsMatch("Konika", NAME_REGEX);
            
         }
+        public bool ValidateLasttName()
+        {
+            return Regex.IsMatch("Singh", NAME_REGEX);
+
+        }
     }
 }
