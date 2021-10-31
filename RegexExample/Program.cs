@@ -20,7 +20,9 @@ namespace RegexExample
 
             bool ValidEmail = rege.ValidEmail();
             Console.WriteLine("Email Address: " + " " + ValidEmail);
-           // Console.WriteLine("Mobile" + " " + ValidEmail);
+
+            bool ValidPassword = rege.ValidPassword();
+            Console.WriteLine("Password: " + " " + ValidPassword);
         }
     }
 }
